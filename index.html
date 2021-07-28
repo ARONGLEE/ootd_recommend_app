@@ -5,27 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/sub-info.css">
+    <link rel="stylesheet" href="css/todo.css">
+    <link rel="stylesheet" href="css/reset.css">
     <title>Momentum App</title>
 </head>
-<body>
-    <h2 id="clock">00:00:00</h2>
+<body style="background-color:bisque">    
     <form id="login-form" class="hidden">
-    <input required maxlength="15" type="text" placeholder="What is your name?" />
-    <input type="submit" value="Log In" />
+    <h1 class="font-roboto">
+        OOTD Recommend</h1>
+    <p id=text1>오늘은 뭘 입을지 고민이신가요?</p>
+    <p id=text2>Come on!</p>
+    <input id ="inputbox" required maxlength="15" type="text" placeholder="What is your nickname?" onfocus="this.placeholder=''" onblur="this.placeholder='What is your nickname?'" />
+    <input id ="inputbtn" type="submit" value="Enter" />
 </form>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
-<div id="quote">
-    <span></span>
-    <span></span>
+
+<div id="sub-info">
+    <span id="weather"></span>
+    <span id="city"></span>
+    <time id="clock">00:00:00</time>
 </div>
-<div id="weather">
-    <span></span>
-    <span></span>
-</div>
+
+<main id="main-form">
+    <section id="main-form-left">
+        <header>
+            <h2 id="greeting" class="hidden"></h2>
+            <div id="quote">
+                <p id=text3></p>
+                <p id=text4></p>
+            </div>
+        </header>
+        <div>
+            <h3 class="sub-title">Today Memo</h3>
+            <div class="box-style">
+                <form id="todo-form">
+                    <input class="todo-input" type="text" required />
+                </form>
+                <ul id="todo-list"></ul>
+            </div>
+        </div>
+    </section>
+    <section id="main-form-right" class="glassmorphism">
+        <div id="image">
+            <h3 class="sub-title">Today Pick!</h3>
+        </div>
+    </section>
+</main>
+
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>

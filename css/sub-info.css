@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+#sub-info:before {
+  width: 50px;
+  margin-right: 10px;
+  content: "";
+  border-bottom: 3.3px solid #1c1b1b;
+}
+
+#sub-info {
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 20px;
+}
+
+#weather,
+#city,
+#clock {
+  margin-right: 15px;
+}

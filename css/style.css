@@ -1,3 +1,42 @@
+@charset "utf-8";
+
+:root {
+  --primary-color: #1c1b1b;
+  --secondary-color: #bbb9b9;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-size: 17px;
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.box-style {
+  box-sizing: border-box;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-weight: 300;
+}
+
+.shown {
+  transition: all 800ms;
+}
+
 .hidden {
-  display: none;
+  visibility: hidden;
+  transform: translateY(-1000px);
+  transition: all 800ms;
 }

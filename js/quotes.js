@@ -1,49 +1,49 @@
 const quotes = [
     {
         quote: "It always seems impossible until its done.",
-        author: "Nelson Mandela",
+        author: "-Nelson Mandela-",
     },
     {
-        quote: "Life is not fair, get used to it.",
-        author: "",
+        quote: "To truly laugh, you must be able to take your pain, and play with it!",
+        author: "-Charlie Chaplin-",
     },
     {
-        quote: "Life is a tragedy when seen in close-up, but a comedy in long shot.",
-        author: "",
+        quote: "While there's life, there's hope.",
+        author: "-Cicero-",
     },
     {
-        quote: "Slow and steady win the race.",
-        author: "",
+        quote: "Success is walking from failure to failure with no loss of enthusiasm.",
+        author: "-Winston Churchill-",
     },
     {
-        quote: "It ain't over till it's over.",
-        author: "",
+        quote: "Energy and persistence conquer all things.",
+        author: "-Benjamin Franklin-",
     },
     {
-        quote: "no one is you and that is your power",
-        author: "",
+        quote: "We are what we repeatedly do. Excellence, then, is not an act but a habit.",
+        author: "-Aristoteles-",
     },
     {
-        quote: "Better the last smile than the first laughter.",
-        author: "",
+        quote: "True knowledge exists in knowing that you know nothing.",
+        author: "-Socrates-",
     },
     {
-        quote: "Miracles happen to only those who believe in them.",
-        author: "",
+        quote: "Life is like riding bicycle. To keep your balance you must keep moving.",
+        author: "-Albert Einstein-",
     },
     {
-        quote: "Love your neighbor as yourself.",
-        author: "",
+        quote: "We should all start to live before we get too old. Fear is stupid. So are regrets",
+        author: "-Marlyn Monroe-",
     },
     {
-        quote: "This too shall pass.",
-        author: "",
+        quote: "Anything is possible, if you have got enough nerve.",
+        author: "-Joan K. Rowling-",
     },
 
 ]
 
-const quote = document.querySelector("#quote span:first-child");
-const author = document.querySelector("quote span:last-child");
+const quote = document.querySelector("#text3");
+const author = document.querySelector("#text4");
 const todayQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todayQuote.quote;
