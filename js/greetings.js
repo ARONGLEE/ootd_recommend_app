@@ -21,6 +21,8 @@ function onLoginSubmit(event){
 function paintGreetings(username){
     greeting.innerText = `Hello ${username}`; 
     greeting.classList.remove(HIDDEN_CLASSNAME);
+    todoForm.classList.add(SHOWN_CLASSNAME);
+    todoForm.style.margin = "0 auto";
 }
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 

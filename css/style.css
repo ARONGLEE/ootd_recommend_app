@@ -31,7 +31,7 @@ body {
   font-weight: 300;
 }
 
-.shown {
+.show {
   transition: all 800ms;
 }
 
