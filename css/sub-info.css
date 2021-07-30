@@ -1,18 +1,13 @@
 @charset "utf-8";
-
-#sub-info:before {
-  width: 50px;
-  margin-right: 10px;
-  content: "";
-  border-bottom: 3.3px solid #1c1b1b;
-}
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 
 #sub-info {
   font-weight: 500;
   display: flex;
   justify-content: flex-end;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 30px;
+  font-family: "Amatic SC", cursive;
   padding: 20px;
 }
 

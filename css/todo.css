@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
 
 #main-form {
   display: flex;
@@ -54,6 +55,7 @@
 #todo-list {
   overflow: auto;
   height: 90%;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .checkbtn {
@@ -75,7 +77,7 @@
   margin: 30px 0 100px;
   font-size: 30px;
   font-weight: 300;
-  font-family: "Bad Script", cursive;
+  font-family: "Amatic SC", cursive;
 }
 
 #text3 {
