@@ -1,6 +1,11 @@
 @charset 'utf-8';
 @import "style.css";
 
+:root {
+  --primary-color: #1c1b1b;
+  --secondary-color: #bbb9b9;
+}
+
 html,
 body,
 div,

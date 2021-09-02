@@ -4,6 +4,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
 
+:root {
+  --primary-color: #1c1b1b;
+  --secondary-color: #bbb9b9;
+}
+
 #main-form {
   display: flex;
   margin: 1200px auto 0;
